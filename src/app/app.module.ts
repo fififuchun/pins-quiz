@@ -11,6 +11,7 @@ import { MainComponent } from './component/main/main.component';
 import { FilterComponent } from './component/main/filter/filter.component';
 import { QuizComponent } from './component/main/quiz/quiz.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

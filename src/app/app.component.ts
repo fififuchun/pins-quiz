@@ -8,9 +8,9 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   title = 'pins-quiz';
-//   myForm: FormGroup = this.fb.group({
-//     firstName: [''],
-//     lastName: [''],
-//   });
-//   constructor(private fb: FormBuilder) {}
+  myForm: FormGroup = this.fb.group({
+    firstName: [''],
+    lastName: [''],
+  });
+  constructor(private fb: FormBuilder) {}
 }
